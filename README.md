@@ -286,11 +286,13 @@ Produced artifacts:
 
 
 
-![image-20230808222352906](C:\Users\13758\AppData\Roaming\Typora\typora-user-images\image-20230808222352906.png)
+![image-20230808222352906](images/image-20230808222352906.png)
+
+
 
 如上图表示构建成功，并且在工程target目录出现可执行文件`springboot-graalvm-demo`。
 
-![image-20230808222707365](C:\Users\13758\AppData\Roaming\Typora\typora-user-images\image-20230808222707365.png)
+![image-20230808222707365](images/image-20230808222707365.png)
 
 
 
@@ -300,26 +302,24 @@ Produced artifacts:
 [root@node-12 target]# ./springboot-graalvm-demo 
 ```
 
-![image-20230808222925934](C:\Users\13758\AppData\Roaming\Typora\typora-user-images\image-20230808222925934.png)
+![image-20230808222925934](images/image-20230808222925934.png)
 
 `同一个工程传统的SpringBoot启动耗时如下`
 
-![image-20230808223141729](C:\Users\13758\AppData\Roaming\Typora\typora-user-images\image-20230808223141729.png)
+![image-20230808223141729](images/image-20230808223141729.png)
 
 ### 7、性能差异
 
 `相差26倍`
 
-![image-20230808223319320](C:\Users\13758\AppData\Roaming\Typora\typora-user-images\image-20230808223319320.png)
+![image-20230808223319320](images/image-20230808223319320.png)
 
 
 
 ## 六、参考文献
 
-- [SpringBoot GraalVM Native Image Support](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image) 
-
+- [SpringBoot GraalVM Native Image Support](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image)
 - [GraalVM Download](https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_linux-x64_bin.tar.gz)
-
 - [GraalVM Online Documentation](https://docs.oracle.com/en/graalvm/jdk/17/)
 - [GraalVM Installation Instructions](https://docs.oracle.com/en/graalvm/jdk/17/docs/getting-started/#getting-started-with-oracle-graalvm)
 
